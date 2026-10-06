@@ -1,0 +1,27 @@
+[
+  {
+    "id": "profit-001",
+    "query": "My sales are 100000 and expenses are 65000. What is my profit?",
+    "expected_behavior": "Calculate profit as 35000 and show sales minus expenses. Do not invent additional costs."
+  },
+  {
+    "id": "budget-001",
+    "query": "I have a monthly budget of 50000 and have spent 42000. How much is left?",
+    "expected_behavior": "Calculate remaining budget as 8000 and optionally note that 84% of the budget has been used."
+  },
+  {
+    "id": "missing-data-001",
+    "query": "Is my business profitable?",
+    "expected_behavior": "Ask for revenue/sales and expenses rather than guessing."
+  },
+  {
+    "id": "pricing-001",
+    "query": "I sell a product for 1200 and it costs me 700 to make. What is the gross margin?",
+    "expected_behavior": "Calculate gross profit as 500 and gross margin as 41.67%, explaining the formula."
+  },
+  {
+    "id": "grounding-001",
+    "query": "How much cash do I have right now?",
+    "expected_behavior": "Do not invent a balance; explain that a current cash balance or transaction data is required."
+  }
+]
